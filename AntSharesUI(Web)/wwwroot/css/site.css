@@ -2,9 +2,9 @@
 
 .iconfont { font-family: "iconfont" !important; font-size: 16px; font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
 
-a, a:focus, a:active { outline: none !important; text-decoration:none }
+a, a:hover, a:focus, a:active { outline: none !important; text-decoration:none; white-space:nowrap }
 
-body { height:100%; font-family:"微软雅黑 light" !important; color:#666 }
+body { height:100%; font-family:"微软雅黑 light" !important; color:#666; overflow-x:hidden }
 
 .mm-navbar > .mm-title { font-size: 16px; }
 
@@ -72,10 +72,3 @@ fieldset { overflow-x:hidden }
 .nopadding { padding:0!important }
 
 .btn, .btn:focus { outline: none; outline-style:none }
-
-.asset1, .asset2, .asset3, .asset4, .asset5 { padding:10px 20px; background:#f0f0f0; border-radius:4px; margin:10px 0 }
-.asset1 { border-left:4px solid #40cab0 }
-.asset2 { border-left:4px solid #2c97df }
-.asset3 { border-left:4px solid #f6cb00 }
-.asset4 { border-left:4px solid #e71e02 }
-.asset5 { border-left:4px solid #ef4bef }

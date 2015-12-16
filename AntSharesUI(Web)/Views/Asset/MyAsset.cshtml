@@ -1,22 +1,57 @@
 ﻿@{
     ViewData["Title"] = "MyAsset";
 }
+<style>
+    .row .col-lg-2 col-md-3 col-sm-4 col-xs-6 { height:90px }
+    .asset { line-height:1.5; background:#f0f0f0; border-radius:4px; margin:10px 0 }
+    .asset div{ padding:5px 20px }
+    .asset a { float:right; }
+    .asset .clearfix a { clear:both }
+    
+    .asset1 { border-left:4px solid #40cab0 }
+    .asset2 { border-left:4px solid #2c97df }
+    .asset3 { border-left:4px solid #f6cb00 }
+    .asset4 { border-left:4px solid #e71e02 }
+    .asset5 { border-left:4px solid #ef4bef }
 
+    .asset1 .clearfix  { background-color:#89c997; border-bottom-right-radius:4px }
+    .asset2 .clearfix { background-color:#97bff4; border-bottom-right-radius:4px }
+    .asset3 .clearfix { background-color:#fff799; border-bottom-right-radius:4px }
+    .asset4 .clearfix { background-color:#f29b76; border-bottom-right-radius:4px }
+    .asset5 .clearfix { background-color:#f19ec2; border-bottom-right-radius:4px }
+
+</style>
 <h2 class="page-header">我的资产</h2>
-<div class="row nomargin">
-    <div class="col-xs-4">
-        <div class="asset1">小蚁股</div>
+<div class="row">
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="asset asset1">
+            <div>小蚁股</div>
+            <div class="clearfix">10000<a href="Details?id=1">查看详情</a></div>
+            
+        </div>
     </div>
-    <div class="col-xs-4">
-        <div class="asset2">小蚁币</div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="asset asset2">
+            <div>小蚁币</div>
+            <div class="clearfix">1632.0128<a href="Details?id=2">查看详情</a></div>
+        </div>
     </div>
-    <div class="col-xs-4">
-        <div class="asset3">股权</div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="asset asset3">
+            <div>股权</div>
+            <div class="clearfix">2家<a href="Details?id=3">查看详情</a></div>
+        </div>
     </div>
-    <div class="col-xs-4">
-        <div class="asset4">货币</div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="asset asset4">
+            <div>货币</div>
+            <div class="clearfix">3种<a href="Details?id=4">查看详情</a></div>
+        </div>
     </div>
-    <div class="col-xs-4">
-        <div class="asset5">其它</div>
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="asset asset5">
+            <div>其它</div>
+            <div class="clearfix"><a href="Details?id=5">查看详情</a></div>
+        </div>
     </div>
 </div>

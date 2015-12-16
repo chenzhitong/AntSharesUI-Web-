@@ -12,7 +12,9 @@
 <h2 class="page-header">我的钱包</h2>
 <div class="row nomargin">
     <div class="col-sm-12 wallet-name">
-        <span>钱包名称：wallet1.db3</span>
+        <div>钱包名称：wallet1.db3</div><br />
+        <a class="btn btn-success withripple">创建普通地址</a>
+        复杂地址请到<a href="~/Personal/Protocol">协议管理</a>中添加
     </div>
     <ul class="col-sm-12 address">
         @for (int i = 0; i < ViewBag.Addresses.Length; i++)

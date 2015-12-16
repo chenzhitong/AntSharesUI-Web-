@@ -33,7 +33,7 @@ namespace AntSharesUI_Web_.Controllers
             return View();
         }
 
-        // GET: Wallet/Address
+        // GET: Wallet/Address?id=1
         public IActionResult Address(int id)
         {
             return View();
